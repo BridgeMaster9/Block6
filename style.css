@@ -523,7 +523,8 @@ main {
   left: 0; }
 
 .Mask-sidebar--open {
-  display: block; }
+  display: block;
+  position: fixed; }
 
 /*-------------------Brands---------------------*/
 .content-block {
