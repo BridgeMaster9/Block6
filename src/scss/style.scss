@@ -375,8 +375,8 @@ main {
 }
 .Mask-sidebar--open {
   display: block;
+  position: fixed;
 }
-
 /*-------------------Brands---------------------*/
 .content-block {
   border-top: 1px solid $clContBord;
