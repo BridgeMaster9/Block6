@@ -1,0 +1,18 @@
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: 'TT lakes', 'Times New Roman', 'sans-serif';
+  background-color: rgb(245, 240, 240);
+}
+.app {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: $clBgWhite;
+  @media (min-width: 1440px) {
+    display: flex;
+  }
+}
+.content-wrapper {
+  background-color: $clBgGrey;
+}
