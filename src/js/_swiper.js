@@ -13,7 +13,7 @@ let swiper = new Swiper('.swiper', {
 })
 
 //------ при width screen>768 - remove swiper
-let mediaQuery = window.matchMedia('(min-width: 768px)')
+const mediaQuery = window.matchMedia('(min-width: 768px)')
 
 function HandleMediaQuery(e) {
   if (mediaQuery.matches) {

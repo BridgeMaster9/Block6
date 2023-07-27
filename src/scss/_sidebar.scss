@@ -8,7 +8,7 @@
   top: 0;
   left: -120%;
   z-index: 200;
-  transition: left 1s;
+  //transition: left 0s;
   @media (min-width: 768px) {
     box-shadow: 30px 0 30px -10px #0e185033, 16px 0 15px -10px #454f7e05;
     width: 320px;
@@ -36,8 +36,12 @@
     align-items: center;
     padding-top: 18px;
     padding-bottom: 20px;
+    padding-left: 56px;
     @media (min-width: 768px) {
       padding-bottom: 46px;
+    }
+    @media (min-width: 1440px) {
+      padding-left: 0;
     }
   }
 }
@@ -46,6 +50,8 @@
 }
 .header {
   &__close-btn {
+    position: absolute;
+    z-index: 500;
     @media (min-width: 1440px) {
       display: none;
     }
@@ -114,7 +120,7 @@
   }
 }
 .contact-button {
-  display: inline;
+  display: inline !important;
 }
 .sidebar {
   &__contact-buttons {

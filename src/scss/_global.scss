@@ -16,3 +16,7 @@ body {
 .content-wrapper {
   background-color: $clBgGrey;
 }
+
+.without-scroll {
+  position: fixed;
+}

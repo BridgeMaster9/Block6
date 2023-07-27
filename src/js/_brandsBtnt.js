@@ -1,9 +1,9 @@
-let brandsButton = document.querySelector('.brands-content__btn')
-let brandsButtonText = brandsButton.querySelector('.next-button__text')
-let brandsButtonIcon = brandsButton.querySelector('.next-button__icon')
-let brandContainer = document.querySelector('.brands-container')
-let brandsContent = document.querySelector('.brands-content')
-let mediaQuery = window.matchMedia('(min-width: 768px)')
+const brandsButton = document.querySelector('.brands-content__btn')
+const brandsButtonText = brandsButton.querySelector('.next-button__text')
+const brandsButtonIcon = brandsButton.querySelector('.next-button__icon')
+const brandContainer = document.querySelector('.brands-container')
+const brandsContent = document.querySelector('.brands-content')
+const mediaQuery = window.matchMedia('(min-width: 768px)')
 
 brandsButton.addEventListener('click', function () {
   if (brandsButtonText.textContent === 'Показать все') {

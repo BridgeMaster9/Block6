@@ -1,9 +1,9 @@
-let devicesButton = document.querySelector('.devices-content__btn')
-let devicesButtonText = devicesButton.querySelector('.next-button__text')
-let devicesButtonIcon = devicesButton.querySelector('.next-button__icon')
-let devicesContainer = document.querySelector('.devices-container')
-let devicesContent = document.querySelector('.devices-content')
-let mediaQuery = window.matchMedia('(min-width: 768px)')
+const devicesButton = document.querySelector('.devices-content__btn')
+const devicesButtonText = devicesButton.querySelector('.next-button__text')
+const devicesButtonIcon = devicesButton.querySelector('.next-button__icon')
+const devicesContainer = document.querySelector('.devices-container')
+const devicesContent = document.querySelector('.devices-content')
+const mediaQuery = window.matchMedia('(min-width: 768px)')
 
 devicesButton.addEventListener('click', function () {
   if (devicesButtonText.textContent === 'Показать все') {
