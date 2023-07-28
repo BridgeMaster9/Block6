@@ -62,7 +62,7 @@ p {
     @media (min-width: 1440px) {
       .sidebar__inner {
         padding-bottom: 0;
-        max-height: 921px; } }
+        position: fixed; } }
   .sidebar__header {
     display: flex;
     align-items: center;
